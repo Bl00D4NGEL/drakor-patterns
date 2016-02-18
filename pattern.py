@@ -1,4 +1,3 @@
-#fixme: what to do re recipe names used more than once?
 """
 Pattern calculator for Drakor. Woefully incomplete.
 
@@ -16,6 +15,12 @@ indentation.
 
 For patterns that produce more than 1 of an item (like nails, shingles,
 and powders), the amount of needed ingredients is rounded up.
+
+For patterns where the same name is used more than once (such as with 
+the Durability Runes), append the starting pattern level. So, the first
+Durability Rune (Common+) - which has a level range of 1-8 - would be
+durability_rune_common_1, while the second one - with a range of 8-15 - 
+would be durability_rune_common_8.
 """
 
 from math import ceil						#for multi-output rounding
@@ -34,7 +39,83 @@ def ?(quantity=1,indent=0):
 	indent += 1
 	?(quantity,indent)
 	?(ceil(quantity/?.0),indent)
+
 """
+
+def silver_maple_handle(quantity=1,indent=0):
+	build_tree("Silver Maple Handle",quantity,indent)
+	indent += 1
+	silver_maple(quantity*5,indent)
+
+def silver_maple(quantity=1,indent=0):
+	build_tree("Silver Maple",quantity,indent)
+
+def wild_cherry_handle(quantity=1,indent=0):
+	build_tree("Wild Cherry Handle",quantity,indent)
+	indent += 1
+	wild_cherry(quantity*2,indent)
+
+def wild_cherry(quantity=1,indent=0):
+	build_tree("Wild Cherry",quantity,indent)
+
+def cotton(quantity=1,indent=0):
+	build_tree("Cotton",quantity,indent)
+
+def cotton_yarn(quantity=1,indent=0):
+	build_tree("Cotton Yarn",quantity,indent)
+	indent += 1
+	cotton(quantity*5,indent)
+
+def grilled_shrimp(quantity=1,indent=0):
+	build_tree("Grilled Shrimp",quantity,indent)
+	indent += 1
+	shrimp(quantity*2,indent)
+
+def shrimp(quantity=1,indent=0):
+	build_tree("Shrimp",quantity,indent)
+
+def common_random_enchant(quantity=1,indent=0):
+	build_tree("Common Random Enchant",quantity,indent)
+	indent += 1
+	simple_dust(quantity*4,indent)
+
+def superior_feet_enchant(quantity=1,indent=0):
+	build_tree("Superior Feet Enchant",quantity,indent)
+	indent += 1
+	simple_dust(quantity*2,indent)
+	arcane_powder(quantity,indent)
+
+def random_superior_enchant(quantity=1,indent=0):
+	build_tree("?",quantity,indent)
+	indent += 1
+	simple_dust(quantity*3,indent)
+	arcane_powder(quantity*3,indent)
+
+def kingsbloom_curse_superior(quantity=1,indent=0):
+	build_tree("Kingsbloom Curse (Superior+)",quantity,indent)
+	indent += 1
+	egg(quantity,indent)
+	kingsbloom_oil(quantity*5,indent)
+
+def angel_dragon_toxin(quantity=1,indent=0):
+	build_tree("Angel Dragon Toxin",quantity,indent)
+	indent += 1
+	shadow_essence(quantity,indent)
+	dragontear_oil(quantity,indent)
+	angelflower_oil(quantity*3,indent)
+
+def shadow_essence(quantity=1,indent=0):
+	build_tree("Shadow Essence",quantity,indent)
+
+def angelflower_oil(quantity=1,indent=0):
+	build_tree("Angelflower Oil",quantity,indent)
+	indent += 1
+	angelflower(quantity*5,indent)
+
+def kingsbloom_oil(quantity=1,indent=0):
+	build_tree("Kingsbloom Oil",quantity,indent)
+	indent += 1
+	kingsbloom(quantity*5,indent)
 
 def iridium_ore(quantity=1,indent=0):
 	build_tree("Iridium Ore",quantity,indent)
@@ -658,8 +739,8 @@ def arcane_powder(quantity=1,indent=0):
 def mystic_essence(quantity=1,indent=0):
 	build_tree("Mystic Essence",quantity,indent)
 
-def extract_dragontear_oil(quantity=1,indent=0):
-	build_tree("Extract Dragontear Oil",quantity,indent)
+def dragontear_oil(quantity=1,indent=0):
+	build_tree("Dragontear Oil",quantity,indent)
 	indent += 1
 	dragontear(quantity*4,indent)
 
@@ -671,18 +752,8 @@ def ancientbloom_oil(quantity=1,indent=0):
 	indent += 1
 	ancientbloom(quantity*4,indent)
 
-def extract_kingsbloom_oil(quantity=1,indent=0):
-	build_tree("Extract Kingsbloom Oil",quantity,indent)
-	indent += 1
-	kingsbloom(quantity*5,indent)
-
 def kingsbloom(quantity=1,indent=0):
 	build_tree("Kingsbloom",quantity,indent)
-
-def extract_angelflower_oil(quantity=1,indent=0):
-	build_tree("Extract Angelflower Oil",quantity,indent)
-	indent += 1
-	angelflower(quantity*5,indent)
 
 def angelflower(quantity=1,indent=0):
 	build_tree("Angelflower",quantity,indent)
