@@ -42,6 +42,18 @@ def ?(quantity=1,indent=0):
 
 """
 
+def iron_poweder(quantity=1,indent=0):
+	build_tree("Iron Powder",quantity,indent)
+	indent += 1
+	shale_rock(ceil(quantity/3.0),indent)
+	iron_ore(ceil(quantity/3.0),indent)
+
+def kingsflower_buff_superior(quantity=1,indent=0):
+	build_tree("Kingsflower Buff (Superior+)",quantity,indent)
+	indent += 1
+	angelflower(quantity*2,indent)
+	kingsbloom_oil(quantity*3,indent)
+
 def silver_maple_handle(quantity=1,indent=0):
 	build_tree("Silver Maple Handle",quantity,indent)
 	indent += 1
