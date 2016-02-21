@@ -42,6 +42,118 @@ def ?(quantity=1,indent=0):
 
 """
 
+def light_birch(quantity=1,indent=0):
+	build_tree("Light Birch",quantity,indent)
+
+def black_spruce(quantity=1,indent=0):
+	build_tree("Black Spruce",quantity,indent)
+
+def wild_cherry(quantity=1,indent=0):
+	build_tree("Wild Cherry",quantity,indent)
+	
+def black_ash(quantity=1,indent=0):
+	build_tree("Black Ash",quantity,indent)
+
+def red_cedar(quantity=1,indent=0):
+	build_tree("Red Cedar",quantity,indent)
+	
+def white_pine(quantity=1,indent=0):
+	build_tree("White Pine",quantity,indent)
+
+def silver_maple(quantity=1,indent=0):
+	build_tree("Silver Maple",quantity,indent)
+
+def bigtooth_aspen(quantity=1,indent=0):
+	build_tree("Bigtooth Aspen",quantity,indent)
+
+def hemlock(quantity=1,indent=0):
+	build_tree("Hemlock",quantity,indent)	
+
+def sharkwood(quantity=1, indent=0):
+	build_tree("Sharkwood", quantity, indent)
+	
+def walnut(quantity=1, indent=0):
+	build_tree("Walnut", quantity, indent)
+
+def dark_cherry(quantity=1, indent=0):
+	build_tree("Dark Cherry", quantity, indent)
+
+def eel(quantity=1, indent=0):
+	build_tree("Eel", quantity, indent)
+	
+def pike(quantity=1, indent=0):
+	build_tree("Pike", quantity, indent)
+	
+def trout(quantity=1, indent=0):
+	build_tree("Trout", quantity, indent)
+	
+def salmon(quantity=1, indent=0):
+	build_tree("Salmon", quantity, indent)
+	
+def delvrak(quantity=1, indent=0):
+	build_tree("Delvrak", quantity, indent)
+	
+def gilgrash(quantity=1, indent=0):
+	build_tree("Gilgrash", quantity, indent)
+	
+def pickerel(quantity=1, indent=0):
+	build_tree("Pickerel", quantity, indent)
+		
+def sunray(quantity=1, indent=0):
+	build_tree("Sunray", quantity, indent)
+		
+def fire_goby(quantity=1, indent=0):
+	build_tree("Fire Goby", quantity, indent)
+		
+def shadow_fish(quantity=1, indent=0):
+	build_tree("Shadow Fish", quantity, indent)
+		
+def halibut(quantity=1, indent=0):
+	build_tree("Halibut", quantity, indent)
+		
+def flounder(quantity=1, indent=0):
+	build_tree("Flounder", quantity, indent)
+		
+def catfish(quantity=1, indent=0):
+	build_tree("Catfish", quantity, indent)
+		
+def perch(quantity=1, indent=0):
+	build_tree("Perch", quantity, indent)
+		
+def rockfish(quantity=1, indent=0):
+	build_tree("Rockfish", quantity, indent)
+		
+def lancetail(quantity=1, indent=0):
+	build_tree("Lancetail", quantity, indent)
+		
+def spiny_piranha(quantity=1, indent=0):
+	build_tree("Spiny Piranha", quantity, indent)
+		
+def mackerel(quantity=1, indent=0):
+	build_tree("Mackerel", quantity, indent)
+		
+def trunkfish(quantity=1, indent=0):
+	build_tree("Trunkfish", quantity, indent)
+		
+def lionfish(quantity=1, indent=0):
+	build_tree("Lionfish", quantity, indent)
+		
+def ghostfish(quantity=1, indent=0):
+	build_tree("Ghostfish", quantity, indent)
+		
+def herring(quantity=1, indent=0):
+	build_tree("Herring", quantity, indent)
+		
+def icefish(quantity=1, indent=0):
+	build_tree("Icefish", quantity, indent)
+		
+def angelfish(quantity=1, indent=0):
+	build_tree("Angelfish", quantity, indent)
+		
+def fangtooth(quantity=1, indent=0):
+	build_tree("Fangtooth", quantity, indent)
+
+
 """ ANCIENT RESEARCH 
 """
 
