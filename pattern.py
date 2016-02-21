@@ -51,7 +51,7 @@ def hard_clay_mixture(quantity=1,indent=0):
 def hard_clay(quantity=1,indent=0):
 	build_tree("Hard Clay",quantity,indent)
 
-def iron_poweder(quantity=1,indent=0):
+def iron_powder(quantity=1,indent=0):
 	build_tree("Iron Powder",quantity,indent)
 	indent += 1
 	shale_rock(ceil(quantity/3.0),indent)
