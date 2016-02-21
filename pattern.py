@@ -42,6 +42,15 @@ def ?(quantity=1,indent=0):
 
 """
 
+def hard_clay_mixture(quantity=1,indent=0):
+	build_tree("Hard Clay Mixture",quantity,indent)
+	indent += 1
+	shale_rock(quantity*10,indent)
+	hard_clay(quantity*6,indent)
+
+def hard_clay(quantity=1,indent=0):
+	build_tree("Hard Clay",quantity,indent)
+
 def iron_poweder(quantity=1,indent=0):
 	build_tree("Iron Powder",quantity,indent)
 	indent += 1
