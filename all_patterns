@@ -1,0 +1,781 @@
+Smithing.txt
+Total characters in Smithing.txt: 50868
+Total Patterns: 197
+0. Acid-Etched Adamantite Hammer
+1. Acid-Etched Bloodstone Hammer
+2. Acid-Etched Chromium Hammer
+3. Acid-Etched Cobalt Hammer
+4. Acid-Etched Copper Hammer
+5. Acid-Etched Iridium Hammer
+6. Acid-Etched Iron Hammer
+7. Acid-Etched Tin Hammer
+8. Adamantite Armplates
+9. Adamantite Axe Blade
+10. Adamantite Boots (Rare+)
+11. Adamantite Crafting Blade
+12. Adamantite Fitting
+13. Adamantite Flame Sword
+14. Adamantite Gauntlets (Superior+)
+15. Adamantite Hammer Head
+16. Adamantite Helm (Superior+)
+17. Adamantite Ice Gloves
+18. Adamantite Legplates (Superior+)
+19. Adamantite Logging Axe
+20. Adamantite Nails
+21. Adamantite Pick Blade
+22. Adamantite Shield (Rare+)
+23. Adamantite Shovel Blade
+24. Adamantite Smithing Hammer
+25. Adamantite Staff Base
+26. Basic Cobalt Feet
+27. Basic Cobalt Legs
+28. Basic Copper Arms
+29. Basic Copper Chest
+30. Basic Copper Feet
+31. Basic Copper Hands
+32. Basic Copper Legs
+33. Basic Iron Armplates
+34. Basic Tin Arms
+35. Basic Tin Hands
+36. Basic Tin Helm
+37. Basic Tin Legs
+38. Basic Tin Shield
+39. Blood Chestguard (Superior+)
+40. Blood Gauntlets (Common+)
+41. Blood Golemite Arms (Epic+)
+42. Blood Golemite Helm (Epic+)
+43. Bloodstone Arms (Superior+)
+44. Bloodstone Axe Blade
+45. Bloodstone Boots (Rare+)
+46. Bloodstone Cap (Common+)
+47. Bloodstone Crafting Blade
+48. Bloodstone Fitting
+49. Bloodstone Hammer Head
+50. Bloodstone Logging Axe
+51. Bloodstone Pick Blade
+52. Bloodstone Shovel Blade
+53. Bloodstone Smithing Hammer
+54. Bloodstone Staff Base
+55. Bronze-Iron Hands (Rare+)
+56. Bronze-Iron Shield (Rare+)
+57. Cast Iron Pot
+58. Chrome Chainmail (Superior+)
+59. Chromebalt Fitting
+60. Chromium Axe Blade
+61. Chromium Boots (Common+)
+62. Chromium Chain-Coif (Rare+)
+63. Chromium Crafting Blade
+64. Chromium Fitting
+65. Chromium Gauntlets (Rare+)
+66. Chromium Hammer Head
+67. Chromium Legs (Common+)
+68. Chromium Logging Axe
+69. Chromium Pick Blade
+70. Chromium Shield (Superior+)
+71. Chromium Shovel Blade
+72. Chromium Smithing Hammer
+73. Chromium Staff Base
+74. Cobalt Axe Blade
+75. Cobalt Chestguard (Superior+)
+76. Cobalt Crafting Blade
+77. Cobalt Fitting
+78. Cobalt Greathelm (Superior+)
+79. Cobalt Hammer Head
+80. Cobalt Logging Axe
+81. Cobalt Pick Blade
+82. Cobalt Shovel Blade
+83. Cobalt Smithing Hammer
+84. Cobalt Staff Base
+85. Cobalt Wristguards (Rare+)
+86. Common Copper Dagger
+87. Common Iron Gauntlets
+88. Copper Armplates (Rare+)
+89. Copper Axe Blade
+90. Copper Crafting Blade
+91. Copper Fasteners
+92. Copper Feet (Rare+)
+93. Copper Fitting
+94. Copper Hammer Head
+95. Copper Hands (Rare+)
+96. Copper Logging Axe
+97. Copper Pick Blade
+98. Copper Shovel Blade
+99. Copper Smithing Hammer
+100. Copper Staff Base
+101. Copper-Tin Helm (Epic+)
+102. Copper-Tin Shield (Epic+)
+103. Form Chromium Nails
+104. Form Copper Nails
+105. Form Iron Nails
+106. Form Tin Nails
+107. Golemite Shortsword (Epic+)
+108. Hard Chrome Legs (Epic+)
+109. Hard Chrome Mace (Epic+)
+110. Hard Cobalt Legs (Epic+)
+111. Hard Cobalt Shield (Epic+)
+112. Iridium Armplates
+113. Iridium Axe Blade
+114. Iridium Boots (Rare+)
+115. Iridium Crafting Blade
+116. Iridium Fitting
+117. Iridium Flame Helm
+118. Iridium Flame Sword
+119. Iridium Gauntlets (Superior+)
+120. Iridium Hammer Head
+121. Iridium Helm (Superior+)
+122. Iridium Legplates (Superior+)
+123. Iridium Logging Axe
+124. Iridium Nails
+125. Iridium Pick Blade
+126. Iridium Shield (Rare+)
+127. Iridium Shovel Blade
+128. Iridium Smithing Hammer
+129. Iridium Staff Base
+130. Iron Axe Blade
+131. Iron Broadsword (Rare+)
+132. Iron Chest-guard (Epic+)
+133. Iron Crafting Blade
+134. Iron Fitting
+135. Iron Hammer Head
+136. Iron Logging Axe
+137. Iron Pick Blade
+138. Iron Shovel Blade
+139. Iron Smithing Hammer
+140. Iron Staff Base
+141. Iron War Helm (Rare+)
+142. Neck Bolts
+143. Pure Adamantite
+144. Pure Bloodstone
+145. Pure Chromium
+146. Pure Cobalt
+147. Pure Copper
+148. Pure Iridium
+149. Pure Iron
+150. Pure Tin
+151. Small Iron Gate
+152. Smelt Adamantite Bar
+153. Smelt Bloodstone Bar
+154. Smelt Chromium Bar
+155. Smelt Cobalt Bar
+156. Smelt Copper Bar
+157. Smelt Golemite Ore
+158. Smelt Iridium Bar
+159. Smelt Iron Bar
+160. Smelt Steel Bar
+161. Smelt Thick Bronze Bar
+162. Smelt Thick Chromium Bar
+163. Smelt Thick Cobalt Bar
+164. Smelt Thick Copper Bar
+165. Smelt Thick Iron Bar
+166. Smelt Thick Tin Bar
+167. Smelt Tin Bar
+168. Steel Razor Blade
+169. Superior Cobalt Hands
+170. Superior Copper Arms
+171. Superior Copper Chest
+172. Superior Copper Helm
+173. Superior Copper Legs
+174. Superior Iron Chestguard
+175. Superior Iron Legplate
+176. Superior Tin Chest
+177. Superior Tin Feet
+178. Thick Adamantite Bar
+179. Thick Blood Shield (Rare+)
+180. Thick Bloodstone Bar
+181. Thick Chrome Arms (Rare+)
+182. Thick Iridium Bar
+183. Tin Axe Blade
+184. Tin Battle Axe
+185. Tin Battle Helm (Rare+)
+186. Tin Battleplate (Rare+)
+187. Tin Crafting Blade
+188. Tin Fitting
+189. Tin Hammer Head
+190. Tin Leggings (Rare+)
+191. Tin Logging Axe
+192. Tin Longsword (Rare+)
+193. Tin Pick Blade
+194. Tin Shovel Blade
+195. Tin Smithing Hammer
+196. Tin Staff Base
+Cooking.txt
+Total characters in Cooking.txt: 21561
+Total Patterns: 75
+0. Angelfish Stew (CR)
+1. Angelherring Soup (DR)
+2. Apple Cider
+3. Apple Goby Steak (Random)
+4. Apple Halibut Jerky (Random)
+5. Apple Shrimp (Gold Drop%)
+6. Apricot Eggs (Travel)
+7. Apricot Spice
+8. Banana Eggs (Invis)
+9. Banana Mackerel (Travel)
+10. Basic Food Buff
+11. Birthday Cake
+12. Boiled Gilgrash 
+13. Caffeinated Blood
+14. Cooked Fangtooth
+15. Cooked Fire Goby
+16. Cooked Flounder
+17. Cooked Ghostfish
+18. Cooked Herring
+19. Cooked Icefish
+20. Cooked Lancetail
+21. Cooked Pike
+22. Cooked Sunray
+23. Cooked Trout
+24. Cooked Trunkfish
+25. Dried Apple Spices
+26. Dried Banana Spice
+27. Dried Orange Spice
+28. Fangtooth Surprise (random)
+29. Fire Catfish Chili (Random)
+30. Fish Chowder (Random)
+31. Flounder Cider Soup (DR)
+32. Fried Eggs & Rings (GD)
+33. Fried Mackerel
+34. Fried Trout (Gold Drop%)
+35. Ghostfish Omelette (CR)
+36. Ghostfish Surprise (Random)
+37. Ghosttooth Soup (Invis)
+38. Golden Goulash (Create Rate)
+39. Grilled Flounder
+40. Grilled Perch
+41. Grilled Shrimp
+42. Grind Goldenbush Spice
+43. Grind Kingsbloom Spice
+44. Grind Rosemary Spice
+45. Icefish Delight (Gold Drop)
+46. King Sunray Steak (CR)
+47. Lancetail Steak & Eggs (DR)
+48. Mackerel Chowder (DR)
+49. Minced Catfish
+50. Minced Pickerel
+51. Omelette Flambé (CR) 
+52. Orange Scrambled Eggs (Inv)
+53. Party Cake
+54. Perch Fishsticks (Random)
+55. Pickerel Kebobs (Invis)
+56. Rockperch Chowder (Travel)
+57. Salmon Steak (Random)
+58. Salted Eel
+59. Salted Eel Jerky (Travel Buff)
+60. Salted Pickerel
+61. Salted Rockfish
+62. Salted Salmon
+63. Salty Orange Rockfish (CR)
+64. Scrambled Eggs
+65. Seafood Medley (Drop Rate)
+66. Shrimp Omelette (Drop Rate)
+67. Smoked Halibut
+68. Spiced Angelfish
+69. Spiced Catfish
+70. Spiced Lionfish
+71. Spiced Pike (Invis)
+72. Spicy Chowder (Travel)
+73. Squid Rings
+74. Trunkfish Delight (Gold Drop)
+Alchemy.txt
+Total characters in Alchemy.txt: 25399
+Total Patterns: 90
+0. Ancientbloom Oil
+1. Angel Dragon Damage (Epic+)
+2. Angel Dragon Toxin
+3. Angelpixie Heal Potion (Rare+)
+4. Basic Battle Damage
+5. Basic Random Curse (Rare)
+6. Basic Random Curse (Superior+)
+7. Concoct Goldenrose Toxin
+8. Concoct Goreberry Toxin
+9. Concoct Midnightgold Toxin
+10. Concoct Mooncreeper Toxin
+11. Concoct Pixiebloom Toxin
+12. Corpsepoppy Oil
+13. Crushed Sandcreeper Paste
+14. Crushed Spiritherb Paste
+15. Crushed Wolfsbane Paste
+16. Cursed Agate
+17. Cursed Amber
+18. Cursed Amethyst
+19. Cursed Citrine
+20. Cursed Garnet
+21. Cursed Gem
+22. Cursed Malachite
+23. Cursed Sun Opal
+24. Devilpetal Paste
+25. Devilpetal Random
+26. Devilweed Acid
+27. Dragontear Acid
+28. Extract Angelflower Oil
+29. Extract Dragontear Oil
+30. Extract Goldenbush Oil
+31. Extract Gorethistle Oil
+32. Extract Kingsbloom Oil
+33. Extract Ladyslipper Oil
+34. Extract Midnight Oil
+35. Extract Moonbeard Oil
+36. Extract Phantomlily Oil
+37. Extract Pixieroot Oil
+38. Extract Rosemary Oil
+39. Extract Waterberry Oil
+40. Ghostmedusa Curse
+41. Ghostmedusa Mystery
+42. Ghostmedusa Toxin
+43. Ghostshroom Oil
+44. Ghouldevil Paste
+45. Ghouldevil Surprise
+46. Ghoulspider Mystery
+47. Ghoulspider Paste
+48. Ghoulweed Oil
+49. Golden Dragon Curse (Epic+)
+50. Golden Dragon Toxin
+51. Gore Dragon Cleanse (Epic)
+52. Goreberry Mystery (Rare+)
+53. Goreherb-berry Surprise (Sup+)
+54. Ground Flax
+55. Kingsbloom Curse (Common)
+56. Kingsbloom Curse (Superior+)
+57. Kingsflower Buff (Superior+)
+58. Ladyphantom ??? (Rare+)
+59. Ladyphantom Buff (Rare+)
+60. Ladyphantom Toxin
+61. Medusaroot Oil
+62. Mooncreeper Random (Rare+)
+63. Mooncreeper Surprise (Rare+)
+64. Moonphantom Heal (Rare+)
+65. Moonphantom Toxin
+66. Mystical Battle Heal (Rare)
+67. Phantom Dragon ?? (Epic+)
+68. Phantom Dragon Paste
+69. Pixie Dragon Mystery (Epic)
+70. Pixiebloom Mystery (Superior+)
+71. Random Battle (Superior)
+72. Rare Battle Damage
+73. Rosemary Buff (Superior)
+74. Sandcreep Curse (Superior+)
+75. Spiderfoot Paste
+76. Spiderfoot Surprise
+77. Spirit Dragon Mystery (Epic+)
+78. Spirit Dragon Paste
+79. Spiritherb Heal (Superior+)
+80. Vilecorpse Curse (Rare+)
+81. Vilecorpse Mystery
+82. Vilecorpse Toxin
+83. Vilegourd Oil
+84. Water Dragon Heal (Epic+)
+85. Witch's Brew
+86. Wolf Dragon ??? (Epic+)
+87. Wolf Dragon Fireball (Epic+)
+88. Wolf Dragon Paste
+89. Wolfsbane ??? (Superior+)
+Crafting.txt
+Total characters in Crafting.txt: 26333
+Total Patterns: 99
+0. Adamantite Pick
+1. Adamantite Sceptre
+2. Adamantite Shovel
+3. Adamantite Wand
+4. Aspen Fishing Rod
+5. Birch Fishing Rod
+6. Birch Mallet Top
+7. Bloodstone Mining Pick
+8. Bloodstone Shovel
+9. Bloodstone Wand
+10. Cedar Fishing Rod
+11. Cedar Mallet Top
+12. Chromium Mining Pick
+13. Chromium Shovel
+14. Chromium Wand
+15. Clay Mug
+16. Cobalt Mining Pick
+17. Cobalt Shovel
+18. Cobalt Wand
+19. Copper Mining Pick
+20. Copper Shovel
+21. Copper Wand
+22. Cotton Yarn
+23. Craft Glue
+24. Cursed Adamantite Staff
+25. Cursed Bloodstone Staff
+26. Cursed Chromium Staff
+27. Cursed Cobalt Staff
+28. Cursed Copper Staff
+29. Cursed Iridium Staff
+30. Cursed Iron Staff
+31. Cursed Tin Staff
+32. Dark Cotton Yarn
+33. Devilweed Line
+34. Devilweed Thread
+35. Dogweed Fishing Line
+36. Dogweed Thread
+37. Earthern Bowl
+38. Easter Basket
+39. Enchanted Bloodstone Sceptre
+40. Enchanted Chromium Sceptre
+41. Enchanted Cobalt Sceptre
+42. Enchanted Copper Sceptre
+43. Enchanted Iridium Sceptre
+44. Enchanted Iron Sceptre
+45. Enchanted Tin Sceptre
+46. Goldenbush Cotton Gloves
+47. Gorethistle Cotton Gloves
+48. Hard Clay Bowl
+49. Hard Clay Mixture
+50. Hard Fire Clay
+51. Hard Fire Clay Bowl
+52. Hard Kaolinite
+53. Hard Kaolinite Bowl
+54. Hemlock Mallet Top
+55. Horsetail Sandpaper
+56. Iridium Mining Pick
+57. Iridium Shovel
+58. Iridium Wand
+59. Iron Mining Pick
+60. Iron Shovel
+61. Iron Wand
+62. Ladyslipper Dark Gloves
+63. Light Clay Bowl
+64. Light Clay Mixture
+65. Light Earthen Clay
+66. Light Fire Clay
+67. Light Fire Clay Bowl
+68. Light Kaolinite
+69. Light Kaolinite Bowl
+70. Linen Fibres
+71. Liontail Sandpaper
+72. Medium Clay Bowl
+73. Medium Clay Mixture
+74. Medium Fire Clay
+75. Medium Fire Clay Bowl
+76. Medium Kaolinite
+77. Medium Kaolinite Bowl
+78. Medusaroot Gloves
+79. Milkweed Fishing Line
+80. Milkweed Thread
+81. Moonbeard Cotton Gloves
+82. Mummy Wraps
+83. Pine Mallet Top
+84. Pixieroot Cotton Gloves
+85. Reindeer Net
+86. Sharkwood Fishing Rod
+87. Shaving Cream
+88. Shaving Products
+89. Smooth Aspen Rod
+90. Smooth Birch Rod
+91. Smooth Cedar Rod
+92. Smooth Sharkwood Rod
+93. Tin Mining Pick
+94. Tin Shovel
+95. Tin Wand
+96. Tough Rope
+97. Vilegourd Dark Gloves
+98. Walnut Mallet Top
+Construction.txt
+Total characters in Construction.txt: 24357
+Total Patterns: 88
+0. Adamantite Crafting Knife
+1. Alchemy Lab
+2. Base Guild Hall (Pine)
+3. Base Guild Wing (Pine)
+4. Birch Container Wall
+5. Birch Guild Container
+6. Birch Mallet
+7. Blacksmith
+8. Bloodstone Crafting Knife
+9. Cedar Building Roof
+10. Cedar Building Wall
+11. Cedar Container Wall
+12. Cedar Guild Container
+13. Cedar Mallet
+14. Cedar Shingles
+15. Chromium Crafting Knife
+16. Cobalt Crafting Knife
+17. Cooking Hall
+18. Copper Crafting Knife
+19. Crafting Hut
+20. Dark Cherry Handle
+21. Enchanting Study
+22. Fine Aspen Handle
+23. Fine Spruce Handle
+24. Guild Hall Bank
+25. Hemlock Container
+26. Hemlock Mallet
+27. Hemlock Roof
+28. Hemlock Shingles
+29. Hemlock Wall
+30. Hickory Slats
+31. Holiday Sled
+32. Inscription Library
+33. Iridium Crafting Knife
+34. Iron Crafting Knife
+35. Jewel Room
+36. Light Birch Shingles
+37. Medium Birch Container
+38. Medium Birch Wall
+39. Medium Cedar Container
+40. Medium Cedar Wall
+41. Medium Pine Wall
+42. Mill Bigtooth Aspen
+43. Mill Black Spruce
+44. Mill Hemlock
+45. Mill Light Birch
+46. Mill Red Cedar
+47. Mill Walnut
+48. Mill White Pine
+49. Pine Building Roof
+50. Pine Building Wall
+51. Pine Container Wall
+52. Pine Guild Container
+53. Pine Guild Roof
+54. Pine Guild Wall
+55. Pine Mallet
+56. Pine Pet Container
+57. Pine Shingles
+58. Reinforced Pine Wall
+59. Rough Aspen Rod
+60. Rough Birch Block
+61. Rough Birch Rod
+62. Rough Cedar Block
+63. Rough Cedar Rod
+64. Rough Hemlock Block
+65. Rough Pine Block
+66. Rough Sharkwood Rod
+67. Rough Walnut Block
+68. Silver Maple Handle
+69. Small Birch Container
+70. Small Building Roof
+71. Small Building Wall
+72. Small Cedar Building
+73. Small Cedar Container
+74. Small Hemlock Building
+75. Small Market Building
+76. Small Pine Building
+77. Small Pine Container
+78. Small Walnut Building
+79. Tin Crafting Knife
+80. Vendor Room
+81. Walnut Container
+82. Walnut Mallet
+83. Walnut Roof
+84. Walnut Shingles
+85. Walnut Wall
+86. Wild Cherry Handle
+87. Workshop
+Inscription.txt
+Total characters in Inscription.txt: 16926
+Total Patterns: 55
+0. Aged Book
+1. Aged Chapter
+2. Aged Reference Book
+3. Basic Book
+4. Basic Chapter
+5. Basic Formation
+6. Basic Markings
+7. Basic Reference Book
+8. Coarse Parchment
+9. Complex Markings
+10. Complex Symbol
+11. Dark Arcane Ink
+12. Delicate Parchment
+13. Durability Rune (Common+)
+14. Durability Rune (Superior+)
+15. Durability Rune (Superior+)
+16. Durability Rune (common+)
+17. Durability Rune (common+)
+18. Elaborate Markings
+19. Elaborate Symbol
+20. Elemental Markings
+21. Elemental Symbol
+22. Ghoul Ink
+23. Inscribed Adamantite Staff
+24. Inscribed Bloodstone Staff
+25. Inscribed Chromium Staff
+26. Inscribed Cobalt Staff
+27. Inscribed Copper Staff
+28. Inscribed Iridium Staff
+29. Inscribed Iron Staff
+30. Inscribed Tin Staff
+31. Midnight Ink
+32. Pixie Ink
+33. Premium Parchment
+34. Primeval Book
+35. Primeval Chapter
+36. Primeval Reference Book
+37. Primitive Book
+38. Primitive Chapter
+39. Primitive Formation
+40. Primitive Markings
+41. Primitive Reference Book
+42. Pristine Book
+43. Pristine Chapter
+44. Pristine Parchment
+45. Pristine Reference Book
+46. Ritual Book
+47. Rough Parchment
+48. Teleport : Danof
+49. Teleport : Drimly
+50. Teleport : First Set Random
+51. Teleport : Poi
+52. Teleport : Settlements
+53. Teleport : Small Mud Hut
+54. Waterberry Ink
+Enchanting.txt
+Total characters in Enchanting.txt: 20777
+Total Patterns: 71
+0. Arms Enchant (Common) 
+1. Arms Enchant (Rare+)
+2. Arms Enchant (Rare+)
+3. Boots Enchant (Rare+)
+4. Chest Enchant (Rare+)
+5. Chest Enchant (Superior)
+6. Common Leg Enchant
+7. Common Random Enchant
+8. Common Random Enchant
+9. Common Shield Enchant
+10. Common Weapon Enchant
+11. Enchant Arms (Superior+)
+12. Enchant Arms (Superior+)
+13. Enchant Chest (Common+)
+14. Enchant Chest (Rare+)
+15. Enchant Chest (Superior+)
+16. Enchant Feet (Common+)
+17. Enchant Feet (Common+)
+18. Enchant Hands (Common+)
+19. Enchant Hands (Rare+)
+20. Enchant Hands (Superior+)
+21. Enchant Head (Rare+)
+22. Enchant Head (Rare+)
+23. Enchant Legs (Rare+)
+24. Enchant Legs (Superior+)
+25. Enchant Shield (Common+)
+26. Enchant Shield (Common+)
+27. Enchant Shield (Rare+)
+28. Enchanted Agate
+29. Enchanted Amber
+30. Enchanted Amethyst
+31. Enchanted Citrine
+32. Enchanted Garnet
+33. Enchanted Gem
+34. Enchanted Malachite
+35. Enchanted Sun Opal
+36. Feet Enchant (Superior+)
+37. Hands Enchant (Rare+)
+38. Hands Enchant (Superior+)
+39. Head Enchant (Common)
+40. Head Enchant (Rare+)
+41. Helm Enchant (Epic+)
+42. Leg Enchant (Rare+)
+43. Leg Enchant (Superior)
+44. Random Enchant (Common+)
+45. Random Enchant (Epic+)
+46. Random Enchant (Epic+)
+47. Random Enchant (Epic+)
+48. Random Enchant (Epic+)
+49. Random Enchant (Epic+)
+50. Random Enchant (Rare+)
+51. Random Enchant (Rare+)
+52. Random Enchant (Superior+)
+53. Random Enchant (Superior+)
+54. Random Enchant (Superior+)
+55. Random Superior Enchant
+56. Shield Enchant (Rare+)
+57. Spawn Chaos Orb
+58. Spawn Insanity Orb
+59. Spawn Moonlight Orb
+60. Spawn Mystic Orb
+61. Spawn Shadow Orb
+62. Superior Arms Enchant
+63. Superior Feet Enchant
+64. Superior Hands Enchant
+65. Superior Shield Enchant
+66. Weapon Enchant (Epic+)
+67. Weapon Enchant (Rare)
+68. Weapon Enchant (Rare+)
+69. Weapon Enchant (Rare+)
+70. Weapon Enchant (Rare+)
+Jewelcrafting.txt
+Total characters in Jewelcrafting.txt: 23321
+Total Patterns: 82
+0. Adamantite Band
+1. Adamantite Powder
+2. Adamantite Ring (Superior+)
+3. Agate Augment (Rare)
+4. Amber Augment (Common)
+5. Amethyst Aug (Common+)
+6. Basic Agate Aug (Common)
+7. Basic Malachite Aug (Common)
+8. Basic Small Gem Augment
+9. Blood-Amber Aug (Epic+)
+10. Bloodstone Band
+11. Bloodstone Powder
+12. Bloodstone Ring (Common+)
+13. Chrome-Amber Aug (Epic+)
+14. Chromium Band
+15. Chromium Powder
+16. Chromium Ring (Common+)
+17. Citrine Augment (Common)
+18. Citrine Augment (Superior)
+19. Cobalt Band
+20. Cobalt Powder
+21. Cobalt Ring (Common+)
+22. Copper Band
+23. Copper Powder
+24. Copper Ring (Common+)
+25. Huge Agate Aug (Epic+)
+26. Huge Amethyst Aug (Epic+)
+27. Huge Amethyst Aug (Rare+)
+28. Huge Citrine Aug (Epic+)
+29. Huge Citrine Aug (Rare+)
+30. Huge Gem Augment
+31. Huge Malachite Aug (Epic+)
+32. Huge Malachite Aug (Rare+)
+33. Huge Sun Opal Aug (Epic+)
+34. Huge Sun Opal Aug (Rare+)
+35. Iridium Band
+36. Iridium Powder
+37. Iridium Ring (Superior+)
+38. Iron Band
+39. Iron Powder
+40. Iron Ring (Common+)
+41. Large Amber Aug (Rare+)
+42. Large Amber Aug (Superior+)
+43. Large Amethyst Aug (Sup+)
+44. Large Malachite Aug (Superior+)
+45. Large Sun Opal Aug (Sup+)
+46. Polish Agate
+47. Polish Amber
+48. Polish Amethyst
+49. Polish Citrine
+50. Polish Large Agate
+51. Polish Large Amber
+52. Polish Large Amethyst
+53. Polish Large Citrine
+54. Polish Large Gem
+55. Polish Large Malachite
+56. Polish Large Sun Opal
+57. Polish Malachite
+58. Polish Small Gem
+59. Polish Sun Opal
+60. Polished Large Garnet
+61. Process Huge Agate
+62. Process Huge Amber
+63. Process Huge Amethyst
+64. Process Huge Citrine
+65. Process Huge Gem
+66. Process Huge Malachite
+67. Process Huge Sun Opal
+68. Process Large Agate
+69. Process Large Amber
+70. Process Large Amethyst
+71. Process Large Citrine
+72. Process Large Gem
+73. Process Large Malachite
+74. Process Large Sun Opal
+75. Rare Gem Augment
+76. Sun Opal Aug (Common+)
+77. Superior Agate Augment
+78. Superior Small Gem Augment
+79. Tin Band
+80. Tin Powder
+81. Tin Ring (Common+)
