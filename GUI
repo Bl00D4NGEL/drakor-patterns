@@ -1,0 +1,60 @@
+import sys
+import pattern
+from Tkinter import *
+
+"""
+This GUI is created by Dominik Peters.
+You are free to use and modify it at any given time.
+"""
+
+#TODO: Fix text moving to the right when you have complicated patterns
+
+mGui = Tk()
+
+def mGetPattern():
+    myString = mEntryPattern.get()          # Read the pattern that the user put in 
+    myString = myString.lower()             # Convert the string into lower-case just for the if-case convenience
+    myString = myString.replace(" ", "_")   # Replace and Spaces with underscores so no unnecessary errors get thrown  
+    myInt = int(mSpinBox.get())             # Read the quantity the user put in
+    
+    if myInt > 0:                           # If the user (accidently) inputs a number equal or under 0 write error into label
+        try:                                # Try to parse arguments into function, otherwise write error into label
+            PrintPattern(myString,myInt,0)
+        except AttributeError:
+            mLabel2['text'] = "ERROR!!! \n The pattern you have entered is not valid!"
+            mLabel2['bg'] = "Red"
+            
+    else:
+        mLabel2['text'] = "ERROR!!! \n The number you have entered is not valid!"
+        mLabel2['bg'] = "Red"
+
+def PrintPattern(pattern_name, quan, indent):
+    getattr(pattern,pattern_name)(quan, indent)
+    labelText= ""
+    for x in pattern.pattern_tree:
+        labelText= labelText + "\t"*x['indent'] + "[" + x['name'] + "] x%d" % (x['quan']) + "\n"
+    pattern.pattern_tree = []
+    mLabel2['text'] = labelText
+    
+mGui.geometry("400x500")
+mGui.title("Patterns!")
+
+mInfoPattern=Label(mGui, text="Hello there! \n Please enter your pattern you wish to know!")
+mInfoPattern.grid(row = 0)
+
+mEntryPattern = Entry(mGui)
+mEntryPattern.grid(row = 1)
+
+mInfoQuantity=Label(mGui, text="Now please enter the amount of items you want to craft.")
+mInfoQuantity.grid(row = 2)
+
+mSpinBox = Spinbox(mGui, from_=1, to= 1000)
+mSpinBox.grid( row = 3)
+
+mPatternInputButton =Button(mGui, text = "Submit", command = mGetPattern)
+mPatternInputButton.grid(row=4)
+
+mLabel2 = Label(mGui, text="Hello there!", bg="Green")
+mLabel2.grid(row=5, sticky ="NW")
+
+mGui.mainloop()
