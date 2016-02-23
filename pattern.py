@@ -529,7 +529,7 @@ def sandstone(quantity=1,indent=0):
 	build_tree("Sandstone",quantity,indent)
 
 def tin_ore(quantity=1,indent=0):
-	build_tree("Tin Ore]x%d",quantity,indent)
+	build_tree("Tin Ore]",quantity,indent)
 
 def thick_iron_bar(quantity=1,indent=0):
 	build_tree("Thick Iron Bar",quantity,indent)
