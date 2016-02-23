@@ -289,7 +289,7 @@ def horsetail(quantity=1,indent=0):
 	build_tree("Horsetail",quantity,indent)
 
 def medium_pine_wall(quantity=1,indent=0):
-	build_tree("Medium Pine Wall] x %d",quantity,indent)
+	build_tree("Medium Pine Wall]",quantity,indent)
 	indent += 1
 	aspen_lumber(quantity*35,indent)
 	chromium_nail(quantity*200,indent)
