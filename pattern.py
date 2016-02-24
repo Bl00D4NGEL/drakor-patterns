@@ -27,7 +27,7 @@ would be durability_rune_common_8.
 
 from math import ceil                        #for multi-output rounding
 
-#Any items related to infrastructure (building the pattern tree,  etc.).
+#Any items related to infrastructure (building the pattern tree, etc.).
 pattern_tree = [] # pylint: disable=invalid-name
 
 def build_tree(mat_name, quantity, indent):
@@ -289,12 +289,12 @@ def horsetail_sandpaper(quantity=1, indent=0):
 def horsetail(quantity=1, indent=0):
     build_tree("Horsetail", quantity, indent)
 
-def medium_pine_wall(quantity=1, indent=0):
-    build_tree("Medium Pine Wall] x %d", quantity, indent)
-    indent += 1
-    aspen_lumber(quantity*35, indent)
-    chromium_nail(quantity*200, indent)
-    pine_lumber(quantity*50, indent)
+def medium_pine_wall(quantity=1,indent=0):
+	build_tree("Medium Pine Wall]",quantity,indent)
+	indent += 1
+	aspen_lumber(quantity*35,indent)
+	chromium_nail(quantity*200,indent)
+	pine_lumber(quantity*50,indent)
 
 def pine_container_wall(quantity=1, indent=0):
     build_tree("Pine Container Wall", quantity, indent)
@@ -550,8 +550,8 @@ def tin_bar(quantity=1, indent=0):
 def sandstone(quantity=1, indent=0):
     build_tree("Sandstone", quantity, indent)
 
-def tin_ore(quantity=1, indent=0):
-    build_tree("Tin Ore]x%d", quantity, indent)
+def tin_ore(quantity=1,indent=0):
+	build_tree("Tin Ore]",quantity,indent)
 
 def thick_iron_bar(quantity=1, indent=0):
     build_tree("Thick Iron Bar", quantity, indent)
