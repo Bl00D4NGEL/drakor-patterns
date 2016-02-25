@@ -43,171 +43,366 @@ def ?(quantity=1, indent=0):
     ?(ceil(quantity/?.0), indent)
 """ # pylint: disable=pointless-string-statement
 
-"""
 def archaic_rune(quantity=1, indent=0):
     build_tree("Archaic Rune", quantity, indent)
 
 def basic_writings(quantity=1, indent=0):
     build_tree("Basic Writings", quantity, indent)
+def hard_clay_mixture(quantity=1,indent=0):
+	build_tree("Hard Clay Mixture",quantity,indent)
+	indent += 1
+	shale_rock(quantity*10,indent)
+	hard_clay(quantity*6,indent)
 
+def hard_clay(quantity=1,indent=0):
+	build_tree("Hard Clay",quantity,indent)
 def basic_reference(quantity=1, indent=0):
     build_tree("Basic Reference", quantity, indent)
 
 def basic_rune(quantity=1, indent=0):
     build_tree("Basic Rune", quantity, indent)
+def iron_powder(quantity=1,indent=0):
+	build_tree("Iron Powder",quantity,indent)
+	indent += 1
+	shale_rock(ceil(quantity/3.0),indent)
+	iron_ore(ceil(quantity/3.0),indent)
 
+def kingsflower_buff_superior(quantity=1,indent=0):
+	build_tree("Kingsflower Buff (Superior+)",quantity,indent)
+	indent += 1
+	angelflower(quantity*2,indent)
+	kingsbloom_oil(quantity*3,indent)
 def minor_etching(quantity=1, indent=0):
     build_tree("Minor Etching", quantity, indent)
 
 def superb_etching(quantity=1, indent=0):
     build_tree("Superb Etching", quantity, indent)
+def silver_maple_handle(quantity=1,indent=0):
+	build_tree("Silver Maple Handle",quantity,indent)
+	indent += 1
+	silver_maple(quantity*5,indent)
 
+def silver_maple(quantity=1,indent=0):
+	build_tree("Silver Maple",quantity,indent)
 def basic_parchment(quantity=1, indent=0):
     build_tree("Basic Parchment", quantity, indent)
 
+def wild_cherry_handle(quantity=1,indent=0):
+	build_tree("Wild Cherry Handle",quantity,indent)
+	indent += 1
+	wild_cherry(quantity*2,indent)
 def primitive_writings(quantity=1, indent=0):
     build_tree("Primitive Writings", quantity, indent)
 
+def wild_cherry(quantity=1,indent=0):
+	build_tree("Wild Cherry",quantity,indent)
 def ancient_book(quantity=1, indent=0):
     build_tree("Ancient Book", quantity, indent)
 
+def cotton(quantity=1,indent=0):
+	build_tree("Cotton",quantity,indent)
 def aged_etching(quantity=1, indent=0):
     build_tree("Aged Etching", quantity, indent)
 
+def cotton_yarn(quantity=1,indent=0):
+	build_tree("Cotton Yarn",quantity,indent)
+	indent += 1
+	cotton(quantity*5,indent)
 def primitive_reference(quantity=1, indent=0):
     build_tree("Primitive Reference", quantity, indent)
 
+def grilled_shrimp(quantity=1,indent=0):
+	build_tree("Grilled Shrimp",quantity,indent)
+	indent += 1
+	shrimp(quantity*2,indent)
 def primitive_rune(quantity=1, indent=0):
     build_tree("Primitive Rune", quantity, indent)
 
+def shrimp(quantity=1,indent=0):
+	build_tree("Shrimp",quantity,indent)
 def primitive_parchment(quantity=1, indent=0):
     build_tree("Primitive Parchment", quantity, indent)
 	
 def aged_writings(quantity=1, indent=0):
     build_tree("Aged Writings", quantity, indent)
 
+def common_random_enchant(quantity=1,indent=0):
+	build_tree("Common Random Enchant",quantity,indent)
+	indent += 1
+	simple_dust(quantity*4,indent)
 def intricate_etching(quantity=1, indent=0):
     build_tree("Intricate Etching", quantity, indent)
 
 def aged_reference(quantity=1, indent=0):
     build_tree("Aged Reference", quantity, indent)
+def superior_feet_enchant(quantity=1,indent=0):
+	build_tree("Superior Feet Enchant",quantity,indent)
+	indent += 1
+	simple_dust(quantity*2,indent)
+	arcane_powder(quantity,indent)
 
+def random_superior_enchant(quantity=1,indent=0):
+	build_tree("?",quantity,indent)
+	indent += 1
+	simple_dust(quantity*3,indent)
+	arcane_powder(quantity*3,indent)
 def aged_etching(quantity=1, indent=0):
 	build_tree("Aged Etching", quantity, indent)
 	
 def elemental_rune(quantity=1, indent=0):
     build_tree("Elemental Rune", quantity, indent)
 
+def kingsbloom_curse_superior(quantity=1,indent=0):
+	build_tree("Kingsbloom Curse (Superior+)",quantity,indent)
+	indent += 1
+	egg(quantity,indent)
+	kingsbloom_oil(quantity*5,indent)
 def elemental_parchment(quantity=1, indent=0):
     build_tree("Elemental Parchment", quantity, indent)
 
+def angel_dragon_toxin(quantity=1,indent=0):
+	build_tree("Angel Dragon Toxin",quantity,indent)
+	indent += 1
+	shadow_essence(quantity,indent)
+	dragontear_oil(quantity,indent)
+	angelflower_oil(quantity*3,indent)
 def ancient_etching(quantity=1, indent=0):
     build_tree("Ancient Etching", quantity, indent)
 
+def shadow_essence(quantity=1,indent=0):
+	build_tree("Shadow Essence",quantity,indent)
 def pristine_writings(quantity=1, indent=0):
     build_tree("Pristine Writings", quantity, indent)
 
+def angelflower_oil(quantity=1,indent=0):
+	build_tree("Angelflower Oil",quantity,indent)
+	indent += 1
+	angelflower(quantity*5,indent)
 def complex_etching(quantity=1, indent=0):
     build_tree("Complex Etching", quantity, indent)
 
+def kingsbloom_oil(quantity=1,indent=0):
+	build_tree("Kingsbloom Oil",quantity,indent)
+	indent += 1
+	kingsbloom(quantity*5,indent)
 def pristine_reference(quantity=1, indent=0):
     build_tree("Pristine Reference", quantity, indent)
 
+def iridium_ore(quantity=1,indent=0):
+	build_tree("Iridium Ore",quantity,indent)
 def pristine_rune(quantity=1, indent=0):
     build_tree("Pristine Rune", quantity, indent)
 
+def quartz(quantity=1,indent=0):
+	build_tree("Quartz",quantity,indent)
 def preserved_parchment(quantity=1, indent=0):
     build_tree("Preserved Parchment", quantity, indent)
 
+def iridium_bar(quantity=1,indent=0):
+	build_tree("Iridium Bar",quantity,indent)
+	indent += 1
+	iridium_ore(quantity,indent)
+	quartz(quantity*2,indent)
 def primeval_writings(quantity=1, indent=0):
     build_tree("Primeval Writings", quantity, indent)
 
+def iridium_nail(quantity=1,indent=0):
+	build_tree("Iridium Nail",quantity,indent)
+	indent += 1
+	iridium_bar(ceil(quantity/15.0),indent)
 def elaborate_etching(quantity=1, indent=0):
 	build_tree("Elaborate Etching", quantity, indent)
 
+def small_hemlock_building(quantity=1,indent=0):
+	build_tree("Small Hemlock Building",quantity,indent)
+	indent += 1
+	hemlock_wall(quantity*4,indent)
+	hemlock_roof(quantity,indent)
+	hemlock_lumber(quantity*30,indent)
+	iridium_nail(quantity*90,indent)
 def primeval_reference(quantity=1, indent=0):
 	build_tree("Primeval Reference", quantity, indent)
 
 def primeval_rune(quantity=1, indent=0):
 	build_tree("Primeval Rune", quantity, indent)
+def hemlock_roof(quantity=1,indent=0):
+	build_tree("Hemlock Roof",quantity,indent)
+	indent += 1
+	hemlock_lumber(quantity*100,indent)
+	iridium_nail(quantity*220,indent)
+	hemlock_shingle(quantity*340,indent)
 
 def primeval_parchment(quantity=1, indent=0):
 	build_tree("Primeval Parchment", quantity, indent)
 
+def hemlock_shingle(quantity=1,indent=0):
+	build_tree("Hemlock Shingle",quantity,indent)
+	indent += 1
+	hemlock(ceil(quantity/5.0),indent)
+
 def sharkwood(quantity=1, indent=0):
     build_tree("Sharkwood", quantity, indent)
+def hemlock_wall(quantity=1,indent=0):
+	build_tree("Hemlock Wall",quantity,indent)
+	indent += 1
+	hemlock_lumber(quantity*100,indent)
+	iridium_nail(quantity*180,indent)
 
+def hemlock_lumber(quantity=1,indent=0):
+	build_tree("Hemlock Lumber",quantity,indent)
+	indent += 1
+	hemlock(quantity,indent)
 def walnut(quantity=1, indent=0):
     build_tree("Walnut", quantity, indent)
 
 def dark_cherry(quantity=1, indent=0):
     build_tree("Dark Cherry", quantity, indent)
+def hemlock(quantity=1,indent=0):
+	build_tree("Hemlock",quantity,indent)
 
 def eel(quantity=1, indent=0):
     build_tree("Eel", quantity, indent)
+def copper_band(quantity=1,indent=0):
+	build_tree("Copper Band",quantity,indent)
+	indent += 1
+	copper_powder(quantity*4,indent)
+	pure_copper(quantity*2,indent)
 
 def pike(quantity=1, indent=0):
     build_tree("Pike", quantity, indent)
+def copper_powder(quantity=1,indent=0):
+	build_tree("Copper Powder",quantity,indent)
+	indent += 1
+	copper_ore(ceil(quantity/3.0),indent)
+	stone(ceil(quantity/3.0),indent)
 
 def trout(quantity=1, indent=0):
     build_tree("Trout", quantity, indent)
+def copper_bar(quantity=1,indent=0):
+	build_tree("Copper Bar",quantity,indent)
+	indent += 1
+	copper_ore(quantity,indent)
+	stone(quantity,indent)
 
 def salmon(quantity=1, indent=0):
     build_tree("Salmon", quantity, indent)
+def pure_copper(quantity=1,indent=0):
+	build_tree("Pure Copper",quantity,indent)
+	indent += 1
+	copper_bar(8*quantity,indent)
 
 def delvrak(quantity=1, indent=0):
     build_tree("Delvrak", quantity, indent)
+def copper_ore(quantity=1,indent=0):
+	build_tree("Copper Ore",quantity,indent)
 
+def stone(quantity=1,indent=0):
+	build_tree("Stone",quantity,indent)
 def gilgrash(quantity=1, indent=0):
     build_tree("Gilgrash", quantity, indent)
 
 def pickerel(quantity=1, indent=0):
     build_tree("Pickerel", quantity, indent)
+def hemlock_container(quantity=1,indent=0):
+	build_tree("Hemlock Container",quantity,indent)
+	indent += 1
+	iridium_nail(quantity*60,indent)
+	hemlock_lumber(quantity*12,indent)
+	hemlock_wall(quantity*6,indent)
 
 def sunray(quantity=1, indent=0):
     build_tree("Sunray", quantity, indent)
+def aspen_lumber(quantity=1,indent=0):
+	build_tree("Aspen Lumber",quantity,indent)
+	indent += 1
+	bigtooth_aspen(quantity,indent)
 
 def fire_goby(quantity=1, indent=0):
     build_tree("Fire Goby", quantity, indent)
+def bigtooth_aspen(quantity=1,indent=0):
+	build_tree("Bigtooth Aspen",quantity,indent)
 
 def shadow_fish(quantity=1, indent=0):
     build_tree("Shadow Fish", quantity, indent)
+def chromium_ore(quantity=1,indent=0):
+	build_tree("Chromium Ore",quantity,indent)
 
 def halibut(quantity=1, indent=0):
     build_tree("Halibut", quantity, indent)
+def marble(quantity=1,indent=0):
+	build_tree("Marble",quantity,indent)
 
 def flounder(quantity=1, indent=0):
     build_tree("Flounder", quantity, indent)
+def chromium_bar(quantity=1,indent=0):
+	build_tree("Chromium Bar",quantity,indent)
+	indent += 1
+	chromium_ore(quantity,indent)
+	marble(quantity*2,indent)
 
 def catfish(quantity=1, indent=0):
     build_tree("Catfish", quantity, indent)
+def chromium_nail(quantity=1,indent=0):
+	build_tree("Chromium Nail",quantity,indent)
+	indent += 1
+	chromium_bar(ceil(quantity/15.0),indent)
 
+def pine_lumber(quantity=1,indent=0):
+	build_tree("Pine Lumber",quantity,indent)
+	indent += 1
+	white_pine(quantity,indent)
 def perch(quantity=1, indent=0):
     build_tree("Perch", quantity, indent)
 
 def rockfish(quantity=1, indent=0):
     build_tree("Rockfish", quantity, indent)
+def white_pine(quantity=1,indent=0):
+	build_tree("White Pine",quantity,indent)
 
 def lancetail(quantity=1, indent=0):
     build_tree("Lancetail", quantity, indent)
+def milkweed_line(quantity=1,indent=0):
+	build_tree("Milkweed Line",quantity,indent)
+	indent += 1
+	milkweed(quantity*3,indent)
 
 def spiny_piranha(quantity=1, indent=0):
     build_tree("Spiny Piranha", quantity, indent)
+def milkweed(quantity=1,indent=0):
+	build_tree("Milkweed",quantity,indent)
 
 def mackerel(quantity=1, indent=0):
     build_tree("Mackerel", quantity, indent)
+def smooth_birch_rod(quantity=1,indent=0):
+	build_tree("Smooth Birch Rod",quantity,indent)
+	indent += 1
+	rough_birch_rod(quantity*2,indent)
+	horsetail_sandpaper(quantity,indent)
 
 def trunkfish(quantity=1, indent=0):
     build_tree("Trunkfish", quantity, indent)
+def rough_birch_rod(quantity=1,indent=0):
+	build_tree("Rough Birch Rod",quantity,indent)
+	indent += 1
+	light_birch(quantity*6,indent)
 
 def lionfish(quantity=1, indent=0):
     build_tree("Lionfish", quantity, indent)
+def light_birch(quantity=1,indent=0):
+	build_tree("Light Birch",quantity,indent)
 
 def ghostfish(quantity=1, indent=0):
     build_tree("Ghostfish", quantity, indent)
+def horsetail_sandpaper(quantity=1,indent=0):
+	build_tree("Horsetail Sandpaper",quantity,indent)
+	indent += 1
+	horsetail(ceil(quantity/3.0),indent)
 
 def herring(quantity=1, indent=0):
     build_tree("Herring", quantity, indent)
+
+def horsetail(quantity=1,indent=0):
+	build_tree("Horsetail",quantity,indent)
 
 def icefish(quantity=1, indent=0):
     build_tree("Icefish", quantity, indent)
