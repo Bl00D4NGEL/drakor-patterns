@@ -1,4 +1,5 @@
 # pylint: disable=missing-docstring
+# pylint: disable=unused-wildcard-import
 
 """
 Pattern calculator for Drakor. Woefully incomplete.
