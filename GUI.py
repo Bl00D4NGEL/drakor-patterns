@@ -10,7 +10,7 @@ You are free to use and modify it at any given time.
 """
 
 tradeskills = ["Smithing","Cooking","Alchemy", "Crafting", "Construction", "Inscription", "Enchanting", "Jewelcrafting"]
-saveList = ["gui_smithing.txt", "gui_cooking.txt", "gui_alchemy.txt", "gui_crafting", "gui_construction", "gui_inscription", "gui_enchanting", "gui_jewelcrafting"] #Open Document to read from
+saveList = ["gui_smithing.txt", "gui_cooking.txt", "gui_alchemy.txt", "gui_crafting.txt", "gui_construction.txt", "gui_inscription.txt", "gui_enchanting.txt", "gui_jewelcrafting.txt"] #Open Document to read from
 
 mGui = Tk()
 def ListBoxChange():
