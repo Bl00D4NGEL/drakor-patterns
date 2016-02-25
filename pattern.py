@@ -43,26 +43,14 @@ def ?(quantity=1, indent=0):
     ?(ceil(quantity/?.0), indent)
 """ # pylint: disable=pointless-string-statement
 
-def archaic_rune(quantity=1, indent=0):
-    build_tree("Archaic Rune", quantity, indent)
-
-def basic_writings(quantity=1, indent=0):
-    build_tree("Basic Writings", quantity, indent)
+def hard_clay(quantity=1, indent=0):
+    build_tree("Hard Clay", quantity, indent)
 
 def hard_clay_mixture(quantity=1, indent=0):
     build_tree("Hard Clay Mixture", quantity, indent)
     indent += 1
     shale_rock(quantity*10, indent)
     hard_clay(quantity*6, indent)
-
-def hard_clay(quantity=1, indent=0):
-    build_tree("Hard Clay", quantity, indent)
-
-def basic_reference(quantity=1, indent=0):
-    build_tree("Basic Reference", quantity, indent)
-
-def basic_rune(quantity=1, indent=0):
-    build_tree("Basic Rune", quantity, indent)
 
 def iron_powder(quantity=1, indent=0):
     build_tree("Iron Powder", quantity, indent)
@@ -75,12 +63,6 @@ def kingsflower_buff_superior(quantity=1, indent=0):
     indent += 1
     angelflower(quantity*2, indent)
     kingsbloom_oil(quantity*3, indent)
-
-def minor_etching(quantity=1, indent=0):
-    build_tree("Minor Etching", quantity, indent)
-
-def superb_etching(quantity=1, indent=0):
-    build_tree("Superb Etching", quantity, indent)
 
 def silver_maple_handle(quantity=1, indent=0):
     build_tree("Silver Maple Handle", quantity, indent)
@@ -98,14 +80,9 @@ def wild_cherry_handle(quantity=1, indent=0):
     indent += 1
     wild_cherry(quantity*2, indent)
 
-def primitive_writings(quantity=1, indent=0):
-    build_tree("Primitive Writings", quantity, indent)
-
 def wild_cherry(quantity=1, indent=0):
     build_tree("Wild Cherry", quantity, indent)
 
-def ancient_book(quantity=1, indent=0):
-    build_tree("Ancient Book", quantity, indent)
 
 def cotton(quantity=1, indent=0):
     build_tree("Cotton", quantity, indent)
@@ -129,22 +106,10 @@ def primitive_rune(quantity=1, indent=0):
 def shrimp(quantity=1, indent=0):
     build_tree("Shrimp", quantity, indent)
 
-def primitive_parchment(quantity=1, indent=0):
-    build_tree("Primitive Parchment", quantity, indent)
-
-def aged_writings(quantity=1, indent=0):
-    build_tree("Aged Writings", quantity, indent)
-
 def common_random_enchant(quantity=1, indent=0):
     build_tree("Common Random Enchant", quantity, indent)
     indent += 1
     simple_dust(quantity*4, indent)
-
-def intricate_etching(quantity=1, indent=0):
-    build_tree("Intricate Etching", quantity, indent)
-
-def aged_reference(quantity=1, indent=0):
-    build_tree("Aged Reference", quantity, indent)
 
 def superior_feet_enchant(quantity=1, indent=0):
     build_tree("Superior Feet Enchant", quantity, indent)
@@ -158,20 +123,11 @@ def random_superior_enchant(quantity=1, indent=0):
     simple_dust(quantity*3, indent)
     arcane_powder(quantity*3, indent)
 
-def aged_etching(quantity=1, indent=0):
-    build_tree("Aged Etching", quantity, indent)
-
-def elemental_rune(quantity=1, indent=0):
-    build_tree("Elemental Rune", quantity, indent)
-
 def kingsbloom_curse_superior(quantity=1, indent=0):
     build_tree("Kingsbloom Curse (Superior+)", quantity, indent)
     indent += 1
     egg(quantity, indent)
     kingsbloom_oil(quantity*5, indent)
-
-def elemental_parchment(quantity=1, indent=0):
-    build_tree("Elemental Parchment", quantity, indent)
 
 def angel_dragon_toxin(quantity=1, indent=0):
     build_tree("Angel Dragon Toxin", quantity, indent)
@@ -180,42 +136,26 @@ def angel_dragon_toxin(quantity=1, indent=0):
     dragontear_oil(quantity, indent)
     angelflower_oil(quantity*3, indent)
 
-def ancient_etching(quantity=1, indent=0):
-    build_tree("Ancient Etching", quantity, indent)
 
 def shadow_essence(quantity=1, indent=0):
     build_tree("Shadow Essence", quantity, indent)
 
-def pristine_writings(quantity=1, indent=0):
-    build_tree("Pristine Writings", quantity, indent)
 
 def angelflower_oil(quantity=1, indent=0):
     build_tree("Angelflower Oil", quantity, indent)
     indent += 1
     angelflower(quantity*5, indent)
 
-def complex_etching(quantity=1, indent=0):
-    build_tree("Complex Etching", quantity, indent)
-
 def kingsbloom_oil(quantity=1, indent=0):
     build_tree("Kingsbloom Oil", quantity, indent)
     indent += 1
     kingsbloom(quantity*5, indent)
 
-def pristine_reference(quantity=1, indent=0):
-    build_tree("Pristine Reference", quantity, indent)
-
 def iridium_ore(quantity=1, indent=0):
     build_tree("Iridium Ore", quantity, indent)
 
-def pristine_rune(quantity=1, indent=0):
-    build_tree("Pristine Rune", quantity, indent)
-
 def quartz(quantity=1, indent=0):
     build_tree("Quartz", quantity, indent)
-
-def preserved_parchment(quantity=1, indent=0):
-    build_tree("Preserved Parchment", quantity, indent)
 
 def iridium_bar(quantity=1, indent=0):
     build_tree("Iridium Bar", quantity, indent)
@@ -223,16 +163,10 @@ def iridium_bar(quantity=1, indent=0):
     iridium_ore(quantity, indent)
     quartz(quantity*2, indent)
 
-def primeval_writings(quantity=1, indent=0):
-    build_tree("Primeval Writings", quantity, indent)
-
 def iridium_nail(quantity=1, indent=0):
     build_tree("Iridium Nail", quantity, indent)
     indent += 1
     iridium_bar(ceil(quantity/15.0), indent)
-
-def elaborate_etching(quantity=1, indent=0):
-    build_tree("Elaborate Etching", quantity, indent)
 
 def small_hemlock_building(quantity=1, indent=0):
     build_tree("Small Hemlock Building", quantity, indent)
@@ -242,21 +176,12 @@ def small_hemlock_building(quantity=1, indent=0):
     hemlock_lumber(quantity*30, indent)
     iridium_nail(quantity*90, indent)
 
-def primeval_reference(quantity=1, indent=0):
-    build_tree("Primeval Reference", quantity, indent)
-
-def primeval_rune(quantity=1, indent=0):
-    build_tree("Primeval Rune", quantity, indent)
-
 def hemlock_roof(quantity=1, indent=0):
     build_tree("Hemlock Roof", quantity, indent)
     indent += 1
     hemlock_lumber(quantity*100, indent)
     iridium_nail(quantity*220, indent)
     hemlock_shingle(quantity*340, indent)
-
-def primeval_parchment(quantity=1, indent=0):
-    build_tree("Primeval Parchment", quantity, indent)
 
 def hemlock_shingle(quantity=1, indent=0):
     build_tree("Hemlock Shingle", quantity, indent)
