@@ -25,16 +25,11 @@ durability_rune_common_1, while the second one - with a range of 8-15 -
 would be durability_rune_common_8.
 """
 
-from math import ceil                        #for multi-output rounding
+from math import ceil                        #for multi-output rounding; remove with patterns
+from pattern_tree import *
+from pattern_logging import *
 
-#Any items related to infrastructure (building the pattern tree, etc.).
-pattern_tree = [] # pylint: disable=invalid-name
-
-def build_tree(mat_name, quantity, indent):
-    pattern_tree.append({'name':mat_name, 'quan':quantity, 'indent':indent})
-
-
-#Only patterns below here.
+#Only patterns below here. Move this to docstring when patterns gone.
 """
 def ?(quantity=1, indent=0):
     build_tree("?", quantity, indent)
@@ -87,9 +82,6 @@ def silver_maple_handle(quantity=1, indent=0):
     indent += 1
     silver_maple(quantity*5, indent)
 
-def silver_maple(quantity=1, indent=0):
-    build_tree("Silver Maple", quantity, indent)
-
 def basic_parchment(quantity=1, indent=0):
     build_tree("Basic Parchment", quantity, indent)
 
@@ -100,9 +92,6 @@ def wild_cherry_handle(quantity=1, indent=0):
 
 def primitive_writings(quantity=1, indent=0):
     build_tree("Primitive Writings", quantity, indent)
-
-def wild_cherry(quantity=1, indent=0):
-    build_tree("Wild Cherry", quantity, indent)
 
 def ancient_book(quantity=1, indent=0):
     build_tree("Ancient Book", quantity, indent)
@@ -263,9 +252,6 @@ def hemlock_shingle(quantity=1, indent=0):
     indent += 1
     hemlock(ceil(quantity/5.0), indent)
 
-def sharkwood(quantity=1, indent=0):
-    build_tree("Sharkwood", quantity, indent)
-
 def hemlock_wall(quantity=1, indent=0):
     build_tree("Hemlock Wall", quantity, indent)
     indent += 1
@@ -276,15 +262,6 @@ def hemlock_lumber(quantity=1, indent=0):
     build_tree("Hemlock Lumber", quantity, indent)
     indent += 1
     hemlock(quantity, indent)
-
-def walnut(quantity=1, indent=0):
-    build_tree("Walnut", quantity, indent)
-
-def dark_cherry(quantity=1, indent=0):
-    build_tree("Dark Cherry", quantity, indent)
-
-def hemlock(quantity=1, indent=0):
-    build_tree("Hemlock", quantity, indent)
 
 def eel(quantity=1, indent=0):
     build_tree("Eel", quantity, indent)
@@ -354,9 +331,6 @@ def aspen_lumber(quantity=1, indent=0):
 def fire_goby(quantity=1, indent=0):
     build_tree("Fire Goby", quantity, indent)
 
-def bigtooth_aspen(quantity=1, indent=0):
-    build_tree("Bigtooth Aspen", quantity, indent)
-
 def shadow_fish(quantity=1, indent=0):
     build_tree("Shadow Fish", quantity, indent)
 
@@ -397,9 +371,6 @@ def perch(quantity=1, indent=0):
 def rockfish(quantity=1, indent=0):
     build_tree("Rockfish", quantity, indent)
 
-def white_pine(quantity=1, indent=0):
-    build_tree("White Pine", quantity, indent)
-
 def lancetail(quantity=1, indent=0):
     build_tree("Lancetail", quantity, indent)
 
@@ -433,9 +404,6 @@ def rough_birch_rod(quantity=1, indent=0):
 
 def lionfish(quantity=1, indent=0):
     build_tree("Lionfish", quantity, indent)
-
-def light_birch(quantity=1, indent=0):
-    build_tree("Light Birch", quantity, indent)
 
 def ghostfish(quantity=1, indent=0):
     build_tree("Ghostfish", quantity, indent)
@@ -646,9 +614,6 @@ def pine_guild_roof(quantity=1, indent=0):
     limestone(quantity*220, indent)
     pine_shingle(quantity*1250, indent)
 
-def black_ash(quantity=1, indent=0):
-    build_tree("Black Ash", quantity, indent)
-
 def limestone(quantity=1, indent=0):
     build_tree("Limestone", quantity, indent)
 
@@ -795,16 +760,10 @@ def cedar_lumber(quantity=1, indent=0):
     indent += 1
     red_cedar(ceil(quantity/2.0), indent)
 
-def red_cedar(quantity=1, indent=0):
-    build_tree("Red Cedar", quantity, indent)
-
 def black_spruce_lumber(quantity=1, indent=0):
     build_tree("Black Spruce Lumber", quantity, indent)
     indent += 1
     black_spruce(ceil(quantity/2.0), indent)
-
-def black_spruce(quantity=1, indent=0):
-    build_tree("Black Spruce", quantity, indent)
 
 def medium_cedar_wall(quantity=1, indent=0):
     build_tree("Medium Cedar Wall", quantity, indent)

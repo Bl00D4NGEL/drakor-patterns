@@ -13,6 +13,6 @@ TAB_STR = "\t"
 
 def pattern_ui(pattern_name,quan=1,indent=0):
     getattr(pattern,pattern_name)(quan,indent)
-    for x in pattern.pattern_tree:
+    for x in pattern.tree:
         print TAB_STR*x['indent'] + "[" + x['name'] + "] x%d" % (x['quan'])
-    pattern.pattern_tree = []
+    pattern.tree = []
